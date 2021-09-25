@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Infinite scroll for woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+
+#: ../infinite_scroll_woocommerce.php:187
+msgid "There was a problem.Please try again."
+msgstr ""
+
+#: ../infinite_scroll_woocommerce.php:189
+msgid "More"
+msgstr ""
+
+#: ../include/php/settings.php:86 ../include/php/settings.php:86
+msgid "Infinite Scroll Woocommerce"
+msgstr ""
+
+#: ../include/php/settings.php:160
+msgid "Settings"
+msgstr ""
+
+#: ../include/php/settings.php:186
+msgid "Basic Settings"
+msgstr ""
+
+#: ../include/php/settings.php:188
+msgid "These are some basic settings to get started."
+msgstr ""
+
+#: ../include/php/settings.php:196
+msgid "How many products initially"
+msgstr ""
+
+#: ../include/php/settings.php:198
+msgid "Enter the number of products to get in main products page before ajax call"
+msgstr ""
+
+#: ../include/php/settings.php:212
+msgid "Preloader icon"
+msgstr ""
+
+#: ../include/php/settings.php:214
+msgid "Upload your own preloader icons. Leave it empty to use plugin default icon"
+msgstr ""
+
+#: ../include/php/settings.php:228
+msgid "Choose ajax method"
+msgstr ""
+
+#: ../include/php/settings.php:230
+msgid "Enter your prefered ajax method"
+msgstr ""
+
+#: ../include/php/settings.php:247
+msgid "Load More button Settings"
+msgstr ""
+
+#: ../include/php/settings.php:249
+msgid "Here are the options if your preferred ajax method is Load More Button."
+msgstr ""
+
+#: ../include/php/settings.php:258
+msgid "Animate load more button"
+msgstr ""
+
+#: ../include/php/settings.php:260
+msgid "Check this option if you want to animate the load more button."
+msgstr ""
+
+#: ../include/php/settings.php:272
+msgid "Choose animation type"
+msgstr ""
+
+#: ../include/php/settings.php:288
+msgid "Change load more text with: "
+msgstr ""
+
+#: ../include/php/settings.php:296
+msgid "Pick a colour for button background"
+msgstr ""
+
+#: ../include/php/settings.php:303
+msgid "Pick a colour for button text color"
+msgstr ""
+
+#: ../include/php/settings.php:310
+msgid "Pick a colour for button background on mouseover"
+msgstr ""
+
+#: ../include/php/settings.php:317
+msgid "Pick a colour for button text color on mouseover"
+msgstr ""
+
+#: ../include/php/settings.php:324
+msgid "Choose padding for your button"
+msgstr ""
+
+#: ../include/php/settings.php:332
+msgid "Choose width for your button"
+msgstr ""
+
+#: ../include/php/settings.php:340
+msgid "Choose height for your button "
+msgstr ""
+
+#: ../include/php/settings.php:348
+msgid "Choose border radius for your button "
+msgstr ""
+
+#: ../include/php/settings.php:356
+msgid "Choose border width for your button "
+msgstr ""
+
+#: ../include/php/settings.php:364
+msgid "Pick a colour for button border"
+msgstr ""
+
+#: ../include/php/settings.php:371
+msgid "Choose font size of button text "
+msgstr ""
+
+#: ../include/php/settings.php:382
+msgid "Simple Ajax Pagination Settings"
+msgstr ""
+
+#: ../include/php/settings.php:384
+msgid "The settings in case you choose as preferred ajax method the simple."
+msgstr ""
+
+#: ../include/php/settings.php:391
+msgid "Do you want to animate the page to the top when ajax finish loading results?"
+msgstr ""
+
+#: ../include/php/settings.php:402
+msgid "Pixels from top?"
+msgstr ""
+
+#: ../include/php/settings.php:414
+msgid "Enter the wrapper selector for result count."
+msgstr ""
+
+#: ../include/php/settings.php:426
+msgid "Enter the wrapper selector for breadcrumb."
+msgstr ""
+
+#: ../include/php/settings.php:440
+msgid "Wrapper Settings"
+msgstr ""
+
+#: ../include/php/settings.php:442
+msgid ""
+"Enter here the wrapper selectors for products loop if you experience issues "
+"or if you have custom woocommerce theme. (Leave options empty if you want "
+"use the selectors from the default woocommerce theme)"
+msgstr ""
+
+#: ../include/php/settings.php:450
+msgid "Products wrapper"
+msgstr ""
+
+#: ../include/php/settings.php:452
+msgid "Enter here the wrapper selector of products page"
+msgstr ""
+
+#: ../include/php/settings.php:468
+msgid "Pagination wrapper"
+msgstr ""
+
+#: ../include/php/settings.php:470 ../include/php/settings.php:488
+msgid "Enter here the wrapper selector of pagination"
+msgstr ""
+
+#: ../include/php/settings.php:486
+msgid "Next page selector"
+msgstr ""
+
+#: ../include/php/settings.php:504
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../include/php/settings.php:506
+msgid "Andvanced settings for developers."
+msgstr ""
+
+#: ../include/php/settings.php:514
+msgid "CSS code"
+msgstr ""
+
+#: ../include/php/settings.php:516
+msgid "Enter here any css code you want to apply in shop loop."
+msgstr ""
+
+#: ../include/php/settings.php:808
+msgid "Upload an image"
+msgstr ""
+
+#: ../include/php/settings.php:808
+msgid "Use image"
+msgstr ""
+
+#: ../include/php/settings.php:808
+msgid "Upload new image"
+msgstr ""
+
+#: ../include/php/settings.php:810
+msgid "Remove image"
+msgstr ""
+
+#: ../include/php/settings.php:910
+msgid "Infinite scroll Woocommerce"
+msgstr ""
+
+#: ../include/php/settings.php:920
+msgid "All"
+msgstr ""
+
+#: ../include/php/settings.php:956
+msgid "Save Settings"
+msgstr ""
