@@ -37,7 +37,7 @@ $sidebar_classes = implode( ' ', $sidebar_classes );
 
 do_action( 'woocommerce_before_cart' ); ?>
 <div class="woocommerce row <?php echo $row_classes; ?>">
-<div class="col large-7 pb-0 <?php echo $main_classes; ?>">
+<div class="col large-8 pb-0 <?php echo $main_classes; ?>">
 
 <?php wc_print_notices(); ?>
 
@@ -52,7 +52,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<th class="product-name" colspan="3"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
 				<!-- <th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th> -->
 				<th class="product-quantity"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
-				<th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?>
+				<th class="product-subtotal"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -124,11 +124,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 							</div>
 						</td>
 
-						<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
+						<!-- <td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 							?>
-						</td>
+						</td> -->
 
 						<td class="product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
 						<?php
@@ -186,7 +186,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<div class="cart-collaterals large-5 col pb-0">
+<div class="cart-collaterals large-4 col pb-0">
 	<?php flatsome_sticky_column_open( 'cart_sticky_sidebar' ); ?>
 
 	<div class="cart-sidebar col-inner <?php echo $sidebar_classes; ?>">
